@@ -11,4 +11,9 @@ document.getElementById("btn-submit").addEventListener("click", function () {
 
   //   Danger: do not use this system in client side.
   // varify email or password
+  if (usrEmail === "mdabircse4873@gmail.com" && userPass === "20252006") {
+    window.location.href = "home.html";
+  } else {
+    alert("incorrect information");
+  }
 });
